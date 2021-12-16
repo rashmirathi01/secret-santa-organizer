@@ -53,11 +53,11 @@ def send_invite(user_list):
 
 
 if __name__ == "__main__":
-    user_list = [User('Priyanka Barnwal', 'priyanka.barnwal@khoros.com'), User('Shefy Abraham', 'shefy.abraham@khoros.com'), User('Anusha Prabhu', 'anusha.prabhu@khoros.com'),
-    User('Aravind Manickavelu', 'aravind.manickavelu@khoros.com'), User('Harsh Vardhan', 'harsh.vardhan@khoros.com'), User('Mahendra Kambariya', 'mahendra.kambariya@khoros.com'),
-    User('Nayana Mathradan', 'nayana.mathradan@khoros.com'), User('Rashmirathi', 'rashmi.rathi@khoros.com')]
+    user_list = [User('Priyank B', 'priyank.b@gmail.com'), User('Saif A', 'saif.a@gmail.com'), User('Anu P', 'anu.p@gmail.com'),
+    User('Arun M', 'arun.m@gmail.com'), User('Hardik V', 'hardik.v@gmail.com'), User('Mahesh K', 'mahesh.k@gmail.com'),
+    User('Narayana M', 'narayana.m@gmail.com'), User('Roshni R', 'roshni.r@gmail.com')]
     assign_santa(user_list)
     while(not validate_santa(user_list)):
         assign_santa(user_list)
     send_invite(user_list)
-    #print_arrangement(user_list)
+    print_arrangement(user_list)
