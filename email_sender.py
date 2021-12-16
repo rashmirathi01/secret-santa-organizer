@@ -6,8 +6,8 @@ from email.mime.image import MIMEImage
 
 
 class EmailService:
-    sender: str = 'cxi.secret.santa@gmail.com'
-    password: str = 'Fantast!c4'
+    sender: str = 'secret.santa@gmail.com'
+    password: str
     subject:str = 'Your Secret Child Is....'
     santa: User
 
